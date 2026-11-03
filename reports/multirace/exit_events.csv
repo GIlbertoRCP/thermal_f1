@@ -1,0 +1,191 @@
+driver,lap,run_laps,cause,name_acronym,driver_number,race_key,circuit,regs
+SAR,40,4,follower passed,SAR,2,9181,Mexico City,2022-25
+NOR,8,3,leader pitted,NOR,4,9181,Mexico City,2022-25
+NOR,40,4,follower passed,NOR,4,9181,Mexico City,2022-25
+NOR,44,3,follower passed,NOR,4,9181,Mexico City,2022-25
+GAS,22,17,leader pitted,GAS,10,9181,Mexico City,2022-25
+MAG,27,3,follower passed,MAG,20,9181,Mexico City,2022-25
+TSU,29,3,leader pitted,TSU,22,9181,Mexico City,2022-25
+ALB,14,9,follower passed,ALB,23,9181,Mexico City,2022-25
+OCO,28,4,leader pitted,OCO,31,9181,Mexico City,2022-25
+HAM,10,5,follower passed,HAM,44,9181,Mexico City,2022-25
+HAM,39,3,follower passed,HAM,44,9181,Mexico City,2022-25
+BOT,20,5,leader pitted,BOT,77,9181,Mexico City,2022-25
+NOR,25,4,leader pitted,NOR,4,9625,Mexico City,2022-25
+NOR,62,3,follower passed,NOR,4,9625,Mexico City,2022-25
+PER,10,4,follower passed,PER,11,9625,Mexico City,2022-25
+OCO,27,10,follower passed,OCO,31,9625,Mexico City,2022-25
+COL,64,7,leader pitted,COL,43,9625,Mexico City,2022-25
+HAM,65,18,follower passed,HAM,44,9625,Mexico City,2022-25
+RUS,14,8,follower passed,RUS,63,9625,Mexico City,2022-25
+PIA,9,3,follower passed,PIA,81,9625,Mexico City,2022-25
+PIA,20,7,follower passed,PIA,81,9625,Mexico City,2022-25
+BOR,8,3,follower passed,BOR,5,9877,Mexico City,2022-25
+BOR,61,16,follower passed,BOR,5,9877,Mexico City,2022-25
+ALO,16,7,leader pitted,ALO,14,9877,Mexico City,2022-25
+SAI,35,3,follower passed,SAI,55,9877,Mexico City,2022-25
+SAI,50,3,follower passed,SAI,55,9877,Mexico City,2022-25
+RUS,40,9,follower passed,RUS,63,9877,Mexico City,2022-25
+PIA,10,9,follower passed,PIA,81,9877,Mexico City,2022-25
+PIA,59,4,follower passed,PIA,81,9877,Mexico City,2022-25
+ALB,28,3,follower passed,ALB,23,11234,Melbourne,2026
+COL,52,3,follower passed,COL,43,11234,Melbourne,2026
+HAD,21,7,follower passed,HAD,6,11245,Shanghai,2026
+GAS,28,5,leader pitted,GAS,10,11245,Shanghai,2026
+ALO,9,3,leader pitted,ALO,14,11245,Shanghai,2026
+LEC,23,4,follower passed,LEC,16,11245,Shanghai,2026
+LEC,38,3,follower passed,LEC,16,11245,Shanghai,2026
+HUL,31,3,leader pitted,HUL,27,11245,Shanghai,2026
+LIN,8,3,leader pitted,LIN,41,11245,Shanghai,2026
+HAM,34,5,follower passed,HAM,44,11245,Shanghai,2026
+BOT,5,3,follower passed,BOT,77,11245,Shanghai,2026
+BEA,5,4,follower passed,BEA,87,11245,Shanghai,2026
+NOR,46,3,follower passed,NOR,1,11253,Suzuka,2026
+VER,4,3,follower passed,VER,3,11253,Suzuka,2026
+VER,47,20,follower passed,VER,3,11253,Suzuka,2026
+BOR,6,3,follower passed,BOR,5,11253,Suzuka,2026
+BOR,16,9,leader pitted,BOR,5,11253,Suzuka,2026
+HAD,35,6,follower passed,HAD,6,11253,Suzuka,2026
+ANT,10,7,follower passed,ANT,12,11253,Suzuka,2026
+ANT,14,3,follower passed,ANT,12,11253,Suzuka,2026
+LEC,36,8,follower passed,LEC,16,11253,Suzuka,2026
+LEC,41,4,follower passed,LEC,16,11253,Suzuka,2026
+STR,7,5,follower passed,STR,18,11253,Suzuka,2026
+HUL,14,10,follower passed,HUL,27,11253,Suzuka,2026
+HUL,46,5,follower passed,HUL,27,11253,Suzuka,2026
+RUS,7,3,follower passed,RUS,63,11253,Suzuka,2026
+RUS,49,6,follower passed,RUS,63,11253,Suzuka,2026
+BOR,18,3,follower passed,BOR,5,11280,Miami,2026
+BOR,45,4,follower passed,BOR,5,11280,Miami,2026
+ALO,19,4,follower passed,ALO,14,11280,Miami,2026
+LEC,30,7,follower passed,LEC,16,11280,Miami,2026
+HAM,19,7,leader pitted,HAM,44,11280,Miami,2026
+SAI,14,3,follower passed,SAI,55,11280,Miami,2026
+RUS,55,3,follower passed,RUS,63,11280,Miami,2026
+BOT,14,3,follower passed,BOT,77,11280,Miami,2026
+PIA,20,7,leader pitted,PIA,81,11280,Miami,2026
+PIA,34,3,follower passed,PIA,81,11280,Miami,2026
+VER,8,7,follower passed,VER,3,11291,Montreal,2026
+GAS,5,3,follower passed,GAS,10,11291,Montreal,2026
+GAS,10,3,follower passed,GAS,10,11291,Montreal,2026
+PER,37,3,follower passed,PER,11,11291,Montreal,2026
+ANT,21,15,follower passed,ANT,12,11291,Montreal,2026
+LEC,38,6,follower passed,LEC,16,11291,Montreal,2026
+HAM,61,7,follower passed,HAM,44,11291,Montreal,2026
+RUS,5,4,follower passed,RUS,63,11291,Montreal,2026
+LIN,34,4,leader pitted,LIN,41,11299,Monte Carlo,2026
+COL,11,10,leader pitted,COL,43,11299,Monte Carlo,2026
+BOR,29,3,leader pitted,BOR,5,11307,Catalunya,2026
+GAS,11,4,leader pitted,GAS,10,11307,Catalunya,2026
+GAS,34,4,leader pitted,GAS,10,11307,Catalunya,2026
+ANT,35,5,follower passed,ANT,12,11307,Catalunya,2026
+ALO,4,3,follower passed,ALO,14,11307,Catalunya,2026
+ALO,11,5,follower passed,ALO,14,11307,Catalunya,2026
+LEC,7,6,follower passed,LEC,16,11307,Catalunya,2026
+LEC,11,3,leader pitted,LEC,16,11307,Catalunya,2026
+HUL,10,8,leader pitted,HUL,27,11307,Catalunya,2026
+BEA,12,10,leader pitted,BEA,87,11307,Catalunya,2026
+BEA,47,5,follower passed,BEA,87,11307,Catalunya,2026
+VER,11,5,leader pitted,VER,3,11315,Spielberg,2026
+VER,42,3,leader pitted,VER,3,11315,Spielberg,2026
+BOR,6,4,follower passed,BOR,5,11315,Spielberg,2026
+ANT,6,5,follower passed,ANT,12,11315,Spielberg,2026
+HUL,12,11,leader pitted,HUL,27,11315,Spielberg,2026
+HAM,51,3,follower passed,HAM,44,11315,Spielberg,2026
+PIA,12,5,leader pitted,PIA,81,11315,Spielberg,2026
+PIA,36,3,leader pitted,PIA,81,11315,Spielberg,2026
+NOR,19,9,leader pitted,NOR,1,11326,Silverstone,2026
+VER,16,8,follower passed,VER,3,11326,Silverstone,2026
+ANT,10,9,follower passed,ANT,12,11326,Silverstone,2026
+HAM,33,9,leader pitted,HAM,44,11326,Silverstone,2026
+HAM,37,3,leader pitted,HAM,44,11326,Silverstone,2026
+RUS,33,6,follower passed,RUS,63,11326,Silverstone,2026
+BEA,5,3,follower passed,BEA,87,11326,Silverstone,2026
+BEA,20,8,leader pitted,BEA,87,11326,Silverstone,2026
+GAS,11,4,follower passed,GAS,10,11334,Spa-Francorchamps,2026
+GAS,25,4,follower passed,GAS,10,11334,Spa-Francorchamps,2026
+GAS,32,6,follower passed,GAS,10,11334,Spa-Francorchamps,2026
+ALO,8,3,follower passed,ALO,14,11334,Spa-Francorchamps,2026
+LEC,16,10,leader pitted,LEC,16,11334,Spa-Francorchamps,2026
+LIN,7,3,follower passed,LIN,41,11334,Spa-Francorchamps,2026
+HAM,8,4,follower passed,HAM,44,11334,Spa-Francorchamps,2026
+HAM,39,3,follower passed,HAM,44,11334,Spa-Francorchamps,2026
+BEA,17,4,leader pitted,BEA,87,11334,Spa-Francorchamps,2026
+NOR,15,5,follower passed,NOR,1,11342,Hungaroring,2026
+NOR,32,14,leader pitted,NOR,1,11342,Hungaroring,2026
+BOR,13,4,follower passed,BOR,5,11342,Hungaroring,2026
+ANT,35,5,leader pitted,ANT,12,11342,Hungaroring,2026
+ALO,14,13,leader pitted,ALO,14,11342,Hungaroring,2026
+LEC,12,11,leader pitted,LEC,16,11342,Hungaroring,2026
+LEC,29,7,leader pitted,LEC,16,11342,Hungaroring,2026
+GAS,34,5,follower passed,GAS,10,11353,Zandvoort,2026
+ANT,54,3,follower passed,ANT,12,11353,Zandvoort,2026
+ALO,10,3,leader pitted,ALO,14,11353,Zandvoort,2026
+ALO,15,3,leader pitted,ALO,14,11353,Zandvoort,2026
+LEC,16,11,leader pitted,LEC,16,11353,Zandvoort,2026
+LEC,33,6,follower passed,LEC,16,11353,Zandvoort,2026
+STR,44,4,leader pitted,STR,18,11353,Zandvoort,2026
+TSU,7,3,leader pitted,TSU,22,11353,Zandvoort,2026
+ALB,33,4,leader pitted,ALB,23,11353,Zandvoort,2026
+HUL,25,5,follower passed,HUL,27,11353,Zandvoort,2026
+LIN,12,3,follower passed,LIN,41,11353,Zandvoort,2026
+NOR,20,10,follower passed,NOR,1,11361,Monza,2026
+NOR,47,4,follower passed,NOR,1,11361,Monza,2026
+ANT,12,5,follower passed,ANT,12,11361,Monza,2026
+ANT,49,3,follower passed,ANT,12,11361,Monza,2026
+ALO,15,6,follower passed,ALO,14,11361,Monza,2026
+ALB,8,3,follower passed,ALB,23,11361,Monza,2026
+ALB,26,4,leader pitted,ALB,23,11361,Monza,2026
+HUL,11,3,leader pitted,HUL,27,11361,Monza,2026
+COL,15,3,follower passed,COL,43,11361,Monza,2026
+HAM,22,3,follower passed,HAM,44,11361,Monza,2026
+RUS,22,4,follower passed,RUS,63,11361,Monza,2026
+TSU,13,12,leader pitted,TSU,22,11369,Madring,2026
+LAW,9,8,follower passed,LAW,30,11369,Madring,2026
+COL,46,9,leader pitted,COL,43,11369,Madring,2026
+PIA,13,12,leader pitted,PIA,81,11369,Madring,2026
+BEA,7,4,follower passed,BEA,87,11369,Madring,2026
+BEA,13,5,leader pitted,BEA,87,11369,Madring,2026
+BEA,22,7,leader pitted,BEA,87,11369,Madring,2026
+BOR,15,6,follower passed,BOR,5,11377,Baku,2026
+BOR,26,4,follower passed,BOR,5,11377,Baku,2026
+BOR,44,4,follower passed,BOR,5,11377,Baku,2026
+ANT,9,3,follower passed,ANT,12,11377,Baku,2026
+ANT,41,3,follower passed,ANT,12,11377,Baku,2026
+ALO,12,9,follower passed,ALO,14,11377,Baku,2026
+HUL,8,3,follower passed,HUL,27,11377,Baku,2026
+LIN,47,9,follower passed,LIN,41,11377,Baku,2026
+HAM,15,7,follower passed,HAM,44,11377,Baku,2026
+BEA,5,3,follower passed,BEA,87,11377,Baku,2026
+BOR,28,11,leader pitted,BOR,5,11731,Kuala Lumpur,2026
+ANT,20,7,follower passed,ANT,12,11731,Kuala Lumpur,2026
+ALO,39,3,follower passed,ALO,14,11731,Kuala Lumpur,2026
+LEC,20,4,follower passed,LEC,16,11731,Kuala Lumpur,2026
+STR,40,4,leader pitted,STR,18,11731,Kuala Lumpur,2026
+PIA,22,7,follower passed,PIA,81,11731,Kuala Lumpur,2026
+BEA,8,5,follower passed,BEA,87,11731,Kuala Lumpur,2026
+NOR,54,4,follower passed,NOR,1,11388,Singapore,2026
+ANT,17,8,leader pitted,ANT,12,11388,Singapore,2026
+ALO,20,11,leader pitted,ALO,14,11388,Singapore,2026
+RUS,12,3,follower passed,RUS,63,11388,Singapore,2026
+RUS,21,3,follower passed,RUS,63,11388,Singapore,2026
+RUS,46,6,follower passed,RUS,63,11388,Singapore,2026
+BEA,28,3,leader pitted,BEA,87,11388,Singapore,2026
+NOR,7,5,follower passed,NOR,1,11396,Austin,2026
+BOR,41,5,leader pitted,BOR,5,11396,Austin,2026
+GAS,7,5,follower passed,GAS,10,11396,Austin,2026
+ANT,31,3,follower passed,ANT,12,11396,Austin,2026
+ALO,10,3,follower passed,ALO,14,11396,Austin,2026
+LEC,48,3,follower passed,LEC,16,11396,Austin,2026
+HUL,6,3,follower passed,HUL,27,11396,Austin,2026
+HUL,18,9,leader pitted,HUL,27,11396,Austin,2026
+COL,17,11,leader pitted,COL,43,11396,Austin,2026
+NOR,32,22,leader pitted,NOR,1,11404,Mexico City,2026
+HAD,25,5,follower passed,HAD,6,11404,Mexico City,2026
+HAD,53,3,follower passed,HAD,6,11404,Mexico City,2026
+HIR,66,3,follower passed,HIR,50,11404,Mexico City,2026
+SAI,58,3,leader pitted,SAI,55,11404,Mexico City,2026
+PIA,11,3,follower passed,PIA,81,11404,Mexico City,2026
+PIA,32,3,follower passed,PIA,81,11404,Mexico City,2026
+BEA,18,10,follower passed,BEA,87,11404,Mexico City,2026
+BEA,30,10,leader pitted,BEA,87,11404,Mexico City,2026
