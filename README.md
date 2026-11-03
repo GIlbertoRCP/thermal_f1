@@ -26,6 +26,8 @@ src/tire_tracks/
   catalog.py    race/quali session list (2026 + Mexico 2023-25) and bulk download
   multirace.py  per-race pipeline pooled across races; persistence, accumulation, track regression
   trackchar.py  full-throttle fraction / mean speed from the pole lap's telemetry
+  trackmap.py   speed by track position (telemetry + XY), close-following vs own free-air laps
+dashboard/app.py  Streamlit dashboard over the pipeline outputs
 reports/        audit write-up and figures
 ```
 
@@ -43,7 +45,23 @@ PYTHONPATH=src uv run python -m tire_tracks.persistence
 PYTHONPATH=src uv run python -m tire_tracks.catalog
 PYTHONPATH=src uv run python -m tire_tracks.multirace
 PYTHONPATH=src uv run python -m tire_tracks.trackchar
+# track maps (downloads car telemetry + location for each race key; ~5 min per race, throttled)
+PYTHONPATH=src uv run python -m tire_tracks.trackmap 11404 9877
 ```
+
+## Dashboard
+```bash
+PYTHONPATH=src uv run streamlit run dashboard/app.py
+```
+Three pages, all from the pipeline outputs above:
+- **Track layout**: per-track wake penalty vs. full-throttle fraction (or mean speed), with the weighted fit.
+- **Held up vs. wake**: time lost by pace advantage and by start gap, filterable by rules, race and position changes.
+- **Track map**: where on the lap followers gain or lose speed against their own free-air laps, with the
+  time it adds up to per sector. Only races with telemetry downloaded by `trackmap` appear; same-track
+  races can be overlaid (e.g. Mexico 2026 vs. 2025).
+
+The map's sector times are a cross-check on the lap-time model: at Mexico 2026 they give S1 −0.12 s,
+S2 +0.16 s, S3 +0.02 s, against −0.19 / +0.18 / +0.03 from sector times.
 
 ## Findings
 Single race: [reports/heldup_and_persistence.md](reports/heldup_and_persistence.md).

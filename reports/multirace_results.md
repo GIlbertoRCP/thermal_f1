@@ -133,6 +133,32 @@ in the wake (the filter used the lap's *mean* gap, which the large end gap pushe
 - For the proposal's memory kernel: in 2026 there's nothing to fit (λ ≈ 0 and no exposure effect). For
   2022–25 there's a signal, but 15 exits at one track can't pin down λ.
 
+## 5. Where on the lap: telemetry track maps
+
+`trackmap.py` puts each ~4 Hz speed sample on the track (nearest XY sample, projected onto the race's
+fastest free-air lap, 50 m bins). Close-following laps (start gap < 1.0 s, follower not faster) are
+compared with the same driver's free-air laps, with the free-air profile scaled to the lap's expected
+pace. Without that scaling, close laps look ~0.65 s faster because they come later in the race on less fuel.
+
+| Race | Close laps | S1 | S2 | S3 | Lap (map) | Lap (model) | Peak tow (km/h) |
+|---|---|---|---|---|---|---|---|
+| Mexico City 2026 | 119 | −0.12 | +0.16 | +0.02 | +0.06 | −0.04 | +13 |
+| Mexico City 2025 | 38 | −0.21 | +0.78 | +0.29 | +0.86 | +0.59 | +23 (tow + DRS) |
+| Zandvoort 2026 | 34 | +0.34 | +0.52 | +0.21 | +1.08 | +0.73 | +18 |
+| Spa 2026 | 51 | −0.54 | +0.47 | −0.24 | −0.31 | −0.38 | +16 |
+| Monza 2026 | 108 | −0.26 | +0.29 | 0.00 | +0.03 | −0.11 | +17 |
+
+- **It's a cross-check on the lap-time model.** The map matches the sector-time model's sign in every
+  sector at all five races. Its totals run ~20–40% larger, so the map shows *where* the time goes and
+  the model gives *how much*.
+- **Mexico, 2025 vs 2026.** In 2025 the straight-line gain kept building to ~+23 km/h (tow plus DRS),
+  and followers lost ~10 km/h through the Esses. In 2026 the gain peaks at ~+13 km/h early on the
+  straight and then fades (energy limits), and the Esses loss is almost gone. That's the same
+  rules-era change as section 3, now located on the track.
+- **Turn 1 at Mexico 2026:** followers arrive faster and lift earlier, with ~31% less throttle at the braking zone.
+- **Monaco is excluded.** OpenF1 is missing its location data for most of the race (whole 20-minute
+  windows return nothing). The other maps cover 98–100% of clean laps.
+
 ## Conclusions
 1. **Most of the apparent dirty-air penalty is being held up.** Faster cars lose roughly their whole
    advantage, at every track.

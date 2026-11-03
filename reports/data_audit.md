@@ -25,6 +25,7 @@ Results check out against the proposal narrative: VER P1, HAM +0.799s, LAW P22�
 | Gap to car ahead | Derived from line-crossing timestamps; agrees with the OpenF1 `intervals` feed to **0.054s median** (p90 0.13s, r=0.96) | Main exposure variable, measured **on-road**, so traffic a lap down counts too |
 | Car telemetry speed/throttle/brake/gear/RPM | ~4.2 Hz (median 0.24s), p95 0.44s | Speed profiles, minimum corner speeds |
 | XY location | ~4.2 Hz, 1.3% zeros | Track map, binning |
+| XY location, other races | Monaco 2026 has holes at the source (whole 20-min windows return no results) | Monaco dropped from the track map; each map reports its lap coverage |
 | Weather | Air 23–25 °C, track 40 °C mean, pressure ~783 hPa (confirms altitude) | Covariate; one `track_temperature = 0` sensor glitch is dropped |
 
 ## What is not reliable or doesn't exist (drop)
